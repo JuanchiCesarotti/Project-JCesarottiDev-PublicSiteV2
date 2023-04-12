@@ -1,16 +1,17 @@
 import "./App.css";
 import Banner from "./components/Banner";
-import bannerImage from "./images/test_banner_image.jpg";
+import WhatiDo from "./components/WhatiDo";
+import bannerImage from "./images/test_banner_image.png";
 
 function App() {
   return (
     <div>
       <Banner
-        title="Mi título de banner"
-        subtitle="Mi subtítulo de banner"
+        title="Juan Cesarotti"
+        subtitle="FullStack Developer & Scrum "
         image={bannerImage}
       />
-      <h2>Bienvenido a mi aplicación de React</h2>
+      <WhatiDo></WhatiDo>
     </div>
   );
 }
